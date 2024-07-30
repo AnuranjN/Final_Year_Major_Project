@@ -1,0 +1,127 @@
+{
+  "contractName": "UsersContract",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "perform_transactions",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"perform_transactions\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/UsersContract.sol\":\"UsersContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/UsersContract.sol\":{\"keccak256\":\"0x1fc304ae9f22679b10e5df9b5f39973ed1cdd0a5163b43ac04d8d92064406cac\",\"urls\":[\"bzz-raw://cf3dc86cf314f84b5979d40ac4cb13bc0c5c4b86e9bebcade18317ce6feeb2e9\",\"dweb:/ipfs/QmcSLMsCNLrqSQQCFddAj7y2ieLkXPY3d34xagmkNhVXyi\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50606d80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063ff0c51ba14602d575b600080fd5b60336035565b005b56fea2646970667358221220207ce37a46eaa6ed4399d1f8f2a75b7466ab353025b8d3c548578cddbb01e96864736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063ff0c51ba14602d575b600080fd5b60336035565b005b56fea2646970667358221220207ce37a46eaa6ed4399d1f8f2a75b7466ab353025b8d3c548578cddbb01e96864736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "38:110:4:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "38:110:4:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;80:55;;;:::i;:::-;;;:::o",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\r\n    contract UsersContract {\r\n    \r\n    \r\n    function perform_transactions() public{\r\n       \r\n    }\r\n        \r\n}\r\n",
+  "sourcePath": "E:\\MAJORPROJECT\\BlockchainIIoT\\BlockchainIIoT-Truffle\\contracts\\UsersContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/UsersContract.sol",
+    "exportedSymbols": {
+      "UsersContract": [
+        56
+      ]
+    },
+    "id": 57,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 51,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:4"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "UsersContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 56,
+        "linearizedBaseContracts": [
+          56
+        ],
+        "name": "UsersContract",
+        "nameLocation": "47:13:4",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 54,
+              "nodeType": "Block",
+              "src": "118:17:4",
+              "statements": []
+            },
+            "functionSelector": "ff0c51ba",
+            "id": 55,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "perform_transactions",
+            "nameLocation": "89:20:4",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 52,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "109:2:4"
+            },
+            "returnParameters": {
+              "id": 53,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "118:0:4"
+            },
+            "scope": 56,
+            "src": "80:55:4",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 57,
+        "src": "38:110:4",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:150:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x92a3559d620278BafA7Ece6D698363d09370DDdF",
+      "transactionHash": "0x327c8b6c24c362011c39c3ea349a05cc87acc36eea0840bf2859ade93476c59d"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-05-01T12:44:48.161Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

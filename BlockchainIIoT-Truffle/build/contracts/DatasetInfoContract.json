@@ -1,0 +1,85 @@
+{
+  "contractName": "DatasetInfoContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/DatasetInfoContract.sol\":\"DatasetInfoContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/DatasetInfoContract.sol\":{\"keccak256\":\"0x2b9dde99adabc52d346393ef87333191c62413bce7b70efae58d548dbe8e407c\",\"urls\":[\"bzz-raw://142ee31b2a2733cc6a8ffb1c2c32a42833daf357a44afb70fe52335dbc44d0c3\",\"dweb:/ipfs/QmZ5497Uyaqc91JzdK94XjWZ1dqX8tA5iL2eRJ2ZxqMDbX\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220e35ccac7fea9f9aa5692a7cb81a910607fe44b33e5e892d30df67530a6fb834064736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220e35ccac7fea9f9aa5692a7cb81a910607fe44b33e5e892d30df67530a6fb834064736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "38:45:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "38:45:0:-:0;;;;;",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\r\n    contract DatasetInfoContract {\r\n    \r\n    \r\n}\r\n",
+  "sourcePath": "E:\\MAJORPROJECT\\BlockchainIIoT\\BlockchainIIoT-Truffle\\contracts\\DatasetInfoContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/DatasetInfoContract.sol",
+    "exportedSymbols": {
+      "DatasetInfoContract": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "DatasetInfoContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "DatasetInfoContract",
+        "nameLocation": "47:19:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "38:45:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:85:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x2ed7e9135447A58822feD81ACf51C089513E2f9F",
+      "transactionHash": "0x132d5855e30fdd3c9422ead598305fa7d8e1da8fdc231b3389bb8be824eec2c0"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-05-01T12:44:47.768Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

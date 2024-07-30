@@ -1,0 +1,127 @@
+{
+  "contractName": "IoTDataContract",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "perform_transactions",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"perform_transactions\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IoTDataContract.sol\":\"IoTDataContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IoTDataContract.sol\":{\"keccak256\":\"0x40255f24d86c82bf9557ccdf5d2a7345292c9a840fa6d15f5361dd0712a42d66\",\"urls\":[\"bzz-raw://df1a35fe011406c48f7bef3b700aa7563432e4c45d4fabdc73f4e38e83b5de40\",\"dweb:/ipfs/QmSwQuR4tsP9LTtbpmtFJirXH6uhvzDXptRomDg9NcfpRC\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50606d80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063ff0c51ba14602d575b600080fd5b60336035565b005b56fea26469706673582212207a0e76ccdefca8a9d47f67a88c71b76f9758c43c48ce9943d67cce502e4aa99764736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063ff0c51ba14602d575b600080fd5b60336035565b005b56fea26469706673582212207a0e76ccdefca8a9d47f67a88c71b76f9758c43c48ce9943d67cce502e4aa99764736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "38:112:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "38:112:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;82:55;;;:::i;:::-;;;:::o",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\r\n    contract IoTDataContract {\r\n    \r\n    \r\n    function perform_transactions() public{\r\n       \r\n    }\r\n        \r\n}\r\n",
+  "sourcePath": "E:\\MAJORPROJECT\\BlockchainIIoT\\BlockchainIIoT-Truffle\\contracts\\IoTDataContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/IoTDataContract.sol",
+    "exportedSymbols": {
+      "IoTDataContract": [
+        9
+      ]
+    },
+    "id": 10,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 4,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IoTDataContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 9,
+        "linearizedBaseContracts": [
+          9
+        ],
+        "name": "IoTDataContract",
+        "nameLocation": "47:15:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 7,
+              "nodeType": "Block",
+              "src": "120:17:1",
+              "statements": []
+            },
+            "functionSelector": "ff0c51ba",
+            "id": 8,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "perform_transactions",
+            "nameLocation": "91:20:1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "111:2:1"
+            },
+            "returnParameters": {
+              "id": 6,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "120:0:1"
+            },
+            "scope": 9,
+            "src": "82:55:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 10,
+        "src": "38:112:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:152:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x3EB7AEA8C86f55Eac328802c88fDA7E59f029205",
+      "transactionHash": "0x9b591a25f8b6b741e77d8f73f7720851706e8a6ef49b2dcf5cdd09d2a9088567"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-05-01T12:44:47.910Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
